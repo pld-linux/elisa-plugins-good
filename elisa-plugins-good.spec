@@ -19,7 +19,6 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description -l pl.UTF-8
 "Dobre" wtyczki dla elisy
 
-
 %prep
 %setup -q
 
