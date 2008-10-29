@@ -8,8 +8,7 @@ Group:		Applications/Multimedia
 Source0:	http://elisa.fluendo.com/static/download/elisa/%{name}-%{version}.tar.gz
 # Source0-md5:	3f4a256707517dfc784385e0ab4be061
 URL:		http://www.fluendo.com/elisa/
-#BuildRequires:	elisa = %{version}
-BuildRequires:	elisa = %{version}-2
+BuildRequires:	elisa = %{version}
 Provides:	elisa-plugins = %{version}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
