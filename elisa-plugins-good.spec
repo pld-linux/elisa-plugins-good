@@ -1,12 +1,12 @@
 Summary:	"Good" plugins for elisa
 Summary(pl.UTF-8):	"Dobre" wtyczki dla elisy
 Name:		elisa-plugins-good
-Version:	0.5.16
-Release:	3
+Version:	0.5.17
+Release:	1
 License:	GPL v3
 Group:		Applications/Multimedia
 Source0:	http://elisa.fluendo.com/static/download/elisa/%{name}-%{version}.tar.gz
-# Source0-md5:	3f4a256707517dfc784385e0ab4be061
+# Source0-md5:	4053ca9aa2eff016ddd564bc5e4b608f
 URL:		http://www.fluendo.com/elisa/
 BuildRequires:	elisa = %{version}
 Provides:	elisa-plugins = %{version}
