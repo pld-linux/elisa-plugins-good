@@ -9,6 +9,7 @@ Source0:	http://elisa.fluendo.com/static/download/elisa/%{name}-%{version}.tar.g
 # Source0-md5:	b1edd53bce2a55dcb9a16d67f5b80454
 URL:		http://www.fluendo.com/elisa/
 BuildRequires:	elisa = %{version}
+BuildRequires:	rpm-pythonprov
 Provides:	elisa-plugins = %{version}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
